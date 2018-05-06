@@ -21,6 +21,7 @@ void configureSensor(void)
 void setup() {
   sensors_event_t event;
   tsl.getEvent(&event);
+  CircuitPlayground.begin();
 }
 void loop(){
   int counter =0;
